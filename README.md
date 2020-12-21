@@ -6,7 +6,7 @@
 ## What this script could do
 - Detect whether the current directory or any parent directory of the current directory is a git repository
 - Filter out the Git commits objects and create a topological ordering
-- Print out the topological ordering with "sticky start" and "sticky end" [Rules of printing](https://web.cs.ucla.edu/classes/fall20/cs97-1/assign/assign6.html)
+- Print out the topological ordering with "sticky start" and "sticky end" ([See Rules of printing](https://web.cs.ucla.edu/classes/fall20/cs97-1/assign/assign6.html))
 
 
 ## Example
