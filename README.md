@@ -20,7 +20,7 @@ Example 1. Consider the following commits where c3 is a child of c1, and c5 is a
                   c5 (branch-3)
 </pre>
                   
-A valid topological ordering from the least to the greatest will be (c5, c4, c3, c2, c1, c0) which should give the following output (assuming the commit hash for cX is hX, and the triple grave accents (```) are not part of the output but merely indicate the start and end of the output lines):
+A valid topological ordering from the least to the greatest will be (c5, c4, c3, c2, c1, c0) which should give the following output:
 
   ```
   h5 branch-3
