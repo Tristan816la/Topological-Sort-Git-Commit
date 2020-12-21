@@ -1,5 +1,5 @@
 # Topological Sort Git Commits
-![Git Graph](./topo.png)
+<img src="./topo.png" width="400"/>
 - If you happen to check the working trees of your git repository, you will find git commits could essentially form a Directed Acyclic Graph (DAG). So, how does tools like "git log" work which could summarize all the commits with corresponding branch information?
 - In this project, I looked into the Git Internals. By writing a Python Script, I could successfully create a topological ordering for any trivial Git Repositories (Assume there are no pack files in the git repository) without using any single git command
 
